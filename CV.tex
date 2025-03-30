@@ -1,167 +1,165 @@
-# Alexander Vysochin
+\documentclass[12pt,a4paper]{article}
 
-**Telegram:** [@avysochin256](https://t.me/avysochin256)  
-**Email:** a@vysochin.ru *(preferred method of contact)*  
-**Location:** Moscow, Russia  
-**Mobility:** Available for occasional business trips
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
 
----
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
 
-## Professional Profile
+\begin{document}
 
+%------------------ Header ------------------%
+\section*{Alexander Vysochin}
+
+\textbf{Telegram:} \href{https://t.me/avysochin256}{@avysochin256}\\
+\textbf{Email:} \href{mailto:a@vysochin.ru}{a@vysochin.ru} \emph{(preferred method of contact)}\\
+\textbf{Location:} Moscow, Russia\\
+\textbf{Mobility:} Available for occasional business trips
+
+%------------------ Professional Profile ------------------%
+\section*{Professional Profile}
 A seasoned DevOps and Cloud-Native Engineer with over 10 years of experience in IT infrastructure design, automation, and cloud technologies. Adept at architecting containerized environments, implementing robust CI/CD pipelines, and developing innovative cloud solutions. Possesses technical leadership and strong problem ownership skills and a proven track record in cross-team collaboration, making complex systems more efficient and scalable.
 
----
+%------------------ Specializations ------------------%
+\section*{Specializations}
+\begin{itemize}
+    \item DevOps Engineering
+    \item Software Development
+    \item Systems \& Cloud-Native Engineering
+\end{itemize}
 
-## Specializations
+%------------------ Employment Preferences ------------------%
+\section*{Employment Preferences}
+\begin{itemize}
+    \item \textbf{Employment Type:} Full Time
+    \item \textbf{Work Schedule:} Full day, flexible schedule, remote working
+    \item \textbf{Commute:} Preferably within an hour
+\end{itemize}
 
-- DevOps Engineering
-- Software Development
-- Systems & Cloud-Native Engineering
+%------------------ Professional Experience ------------------%
+\section*{Professional Experience}
 
----
+\subsection*{Sber – Moscow, Russia}
+\textit{Financial Sector – Banking}\\
+\textbf{Software Engineer}\\
+\textit{November 2023 – Present (1 year 5 months)}
+\begin{itemize}
+    \item Investigated telemetry storage in ClickHouse.
+    \item Explored the implementation of Cilium DSR using tunneling techniques.
+    \item Developed a host-based firewall solution for Kubernetes.
+    \item Created a supplementary CNI plugin for Kubernetes environments.
+    \item Built a diagnostic tool to collect information about Kubernetes clusters and their nodes.
+    \item Identified and resolved a packet fragmentation issue in Cilium related to MTU discrepancies.
+\end{itemize}
+\textbf{Technology Stack:} Linux, XDP, Cilium, Kubernetes, C (\textit{eBPF}), Golang
 
-## Employment Preferences
+\subsection*{Nexters Global LTD – Kazakhstan}
+\textbf{DevOps Engineer}\\
+\textit{November 2022 – November 2023 (1 year 1 month)}
+\begin{itemize}
+    \item Conducted R\&D and participated in on-call duties and troubleshooting.
+    \item Designed and optimized infrastructure architectures.
+    \item Facilitated cross-team communication and documented processes for knowledge sharing.
+    \item Successfully migrated infrastructure between AWS accounts.
+\end{itemize}
+\textbf{Technology Stack:} AWS (EC2, EKS, RDS), CI/CD (GitLab, ArgoCD), Helm, Docker, containerd, Terraform, Terragrunt, Atlantis, Golang
 
-- **Employment Type:** Full Time  
-- **Work Schedule:** Full day, flexible schedule, remote working  
-- **Commute:** Preferably within an hour
+\subsection*{MTS (Mobile TeleSystems) – Moscow, Russia}
+\textit{IT, System Integration, and Software Development – Telecommunications}\\
+\textbf{DevOps Engineer}\\
+\textit{August 2021 – October 2022 (1 year 3 months)}
+\begin{itemize}
+    \item Designed and automated infrastructure solutions.
+    \item Managed troubleshooting, release management, and reduction of manual toil.
+    \item Built and supported CI/CD pipelines while participating in hiring and onboarding initiatives.
+\end{itemize}
+\textbf{Technology Stack:} GitLab CI, Terraform, Ansible, SOPS, Helm, Flagger, Fleet, Kubernetes, Istio, Calico, Minio, Golang, Python
 
----
+\subsection*{VK – Yekaterinburg, Russia}
+\textit{IT and Software Development – Internet and Media}\\
+\textbf{Private Cloud Installation Team Lead}\\
+\textit{March 2021 – July 2021 (5 months)}
+\begin{itemize}
+    \item Led the private cloud installation team for MCS Private Cloud Installation.
+    \item Developed and documented installation tools and projects.
+    \item Conducted Scrum meetings and managed team processes, including recruitment and process improvements.
+\end{itemize}
+\textbf{Technology Stack:} OpenStack
 
-## Professional Experience
+\subsection*{Megafon – Moscow, Russia}
+\textit{IT, System Integration, and Software Development – Telecommunications}\\
+\textbf{Senior Platform Developer}\\
+\textit{February 2019 – February 2021 (2 years 1 month)}
+\begin{itemize}
+    \item Designed and supported bare-metal Kubernetes clusters and their integrations.
+    \item Oversaw IT infrastructure operations, troubleshooting, and team onboarding.
+    \item Developed workflows and Helm charts while automating tasks using Terraform and Python.
+\end{itemize}
 
-### Sber – Moscow, Russia  
-*Financial Sector – Banking*  
-**Software Engineer**  
-*November 2023 – Present (1 year 5 months)*
+\textbf{Key Technologies:}
+\begin{itemize}
+    \item Kubernetes, MetalLB, Calico/Flannel, Velero, cert-manager
+    \item Rancher, Prometheus, Ceph/RadosGW, Istio, Terraform
+    \item Jenkins, GitLab, Artifactory, Grafana, Golang
+\end{itemize}
 
-- Investigated telemetry storage in ClickHouse.
-- Explored the implementation of Cilium DSR using tunneling techniques.
-- Developed a host-based firewall solution for Kubernetes.
-- Created a supplementary CNI plugin for Kubernetes environments.
-- Built a diagnostic tool to collect information about Kubernetes clusters and their nodes.
-- Identified and resolved a packet fragmentation issue in Cilium related to MTU discrepancies.
+\subsection*{Sima-Land, LLC – Yekaterinburg, Russia}
+\textit{IT, System Integration, and Software Development}\\
+\textbf{System Engineer}\\
+\textit{July 2017 – December 2018 (1 year 6 months)}
+\begin{itemize}
+    \item Architected and supported corporate cloud services built on KVM/OpenNebula/Ceph, from hardware to web UI.
+    \item Designed and maintained a petabyte-scale Ceph cluster and associated network/server hardware.
+    \item Built high-availability clusters using Pacemaker, Keepalived, and HAProxy.
+    \item Automated tasks using Ansible and Python, managed backup systems (Bareos), and developed monitoring scripts integrated with Zabbix, InfluxDB, and Grafana.
+    \item Implemented CI/CD pipelines and developed REST services and parsers using Python (Tornado/Flask).
+\end{itemize}
 
-**Technology Stack:** Linux, XDP, Cilium, Kubernetes, C (eBPF), Golang
+\subsection*{LLP "ASKET" – Petropavlovsk, Russia}
+\textbf{System Administrator}\\
+\textit{May 2014 – May 2017 (3 years 1 month)}
+\begin{itemize}
+    \item Configured and managed the BGBilling billing system and administered servers (Debian/Ubuntu).
+    \item Managed network hardware from various vendors (D-Link, SNR, ELTEX, BROCADE, UBIQUITY, CISCO).
+    \item Maintained software-based BRAS systems (BIRD, Quagga, iproute2, iptables) and monitoring systems (Zabbix, Nagios).
+    \item Configured virtualization clusters (Proxmox, KVM, DRBD, Open vSwitch) and automated tasks using Python.
+    \item Oversaw DPI system configurations and conducted extensive network and software troubleshooting.
+\end{itemize}
 
----
+%------------------ Education ------------------%
+\section*{Education}
 
-### Nexters Global LTD – Kazakhstan  
-**DevOps Engineer**  
-*November 2022 – November 2023 (1 year 1 month)*
+\textbf{Bachelor’s Degree}\\
+\textit{Siberian State University of Telecommunications and Informatics, Novosibirsk}\\
+Year: 2022\\
+Major: Information Technology and Communications Systems (Computer Software and Automated Systems)
 
-- Conducted R&D and participated in on-call duties and troubleshooting.
-- Designed and optimized infrastructure architectures.
-- Facilitated cross-team communication and documented processes for knowledge sharing.
-- Successfully migrated infrastructure between AWS accounts.
+\vspace{6pt}
+\textbf{Petropavl Humanitarian-Technical College}\\
+Year: 2014\\
+Major: Electronics and Telecommunications (Telecommunications Technician)
 
-**Technology Stack:** AWS (EC2, EKS, RDS), CI/CD (GitLab, ArgoCD), Helm, Docker, containerd, Terraform, Terragrunt, Atlantis, Golang
+%------------------ Professional Development & Certifications ------------------%
+\section*{Professional Development \& Certifications}
 
----
+\begin{itemize}
+    \item \textbf{Higher School of Economics, Yekaterinburg} (2021) – Technologies in People Management
+    \item \textbf{NPO "Sapphire", Yekaterinburg} (2019) – PostgreSQL 10: Administration, Configuration, Monitoring, and Replication (PostgresPro)
+    \item \textbf{FastLane, Saint Petersburg} (2016) – Implementing Cisco MPLS
+\end{itemize}
 
-### MTS (Mobile TeleSystems) – Moscow, Russia  
-*IT, System Integration, and Software Development – Telecommunications*  
-**DevOps Engineer**  
-*August 2021 – October 2022 (1 year 3 months)*
+%------------------ Skills ------------------%
+\section*{Skills}
+\begin{itemize}
+    \item \textbf{Cloud Native \& Containerization:} Kubernetes, Docker, OpenStack, Cilium, Containerd, Helm
+    \item \textbf{Infrastructure \& Orchestration:} AWS (EC2, EKS, RDS), Bare-metal Kubernetes, Ceph, MetalLB, Istio, Velero, Terraform, Jenkins
+    \item \textbf{CI/CD \& Automation:} GitLab CI, ArgoCD, Ansible, Terragrunt, Atlantis
+    \item \textbf{Programming \& Scripting:} Golang, Python, C (eBPF)
+    \item \textbf{Monitoring \& Observability:} Prometheus, Grafana, Zabbix, InfluxDB
+    \item \textbf{Networking \& Security:} Linux, XDP, Calico, Flannel, Firewall Configuration, CNI
+    \item \textbf{Methodologies \& Practices:} Agile, Scrum, DevOps, Cross-team Collaboration, R\&D
+\end{itemize}
 
-- Designed and automated infrastructure solutions.
-- Managed troubleshooting, release management, and reduction of manual toil.
-- Built and supported CI/CD pipelines while participating in hiring and onboarding initiatives.
-
-**Technology Stack:** GitLab CI, Terraform, Ansible, SOPS, Helm, Flagger, Fleet, Kubernetes, Istio, Calico, Minio, Golang, Python
-
----
-
-### VK – Yekaterinburg, Russia  
-*IT and Software Development – Internet and Media*  
-**Private Cloud Installation Team Lead**  
-*March 2021 – July 2021 (5 months)*
-
-- Led the private cloud installation team for MCS Private Cloud Installation.
-- Developed and documented installation tools and projects.
-- Conducted Scrum meetings and managed team processes, including recruitment and process improvements.
-
-**Technology Stack:** OpenStack
-
----
-
-### Megafon – Moscow, Russia  
-*IT, System Integration, and Software Development – Telecommunications*  
-**Senior Platform Developer**  
-*February 2019 – February 2021 (2 years 1 month)*
-
-- Designed and supported bare-metal Kubernetes clusters and their integrations.
-- Oversaw IT infrastructure operations, troubleshooting, and team onboarding.
-- Developed workflows and Helm charts while automating tasks using Terraform and Python.
-
-**Key Technologies:**
-
-|   |   |   |   |   |   |   |   |   |
-|---|---|---|---|---|---|---|---|---|
-| Kubernetes    || MetalLB || Calico/Flannel || Velero || cert-manager |
-| Rancher || Prometheus || Ceph/RadosGW || Istio || Terraform ||
-| Jenkins || GitLab || Artifactory || Grafana || Golang ||
-
----
-
-### Sima-Land, LLC – Yekaterinburg, Russia  
-*IT, System Integration, and Software Development*  
-**System Engineer**  
-*July 2017 – December 2018 (1 year 6 months)*
-
-- Architected and supported corporate cloud services built on KVM/OpenNebula/Ceph, from hardware to web UI.
-- Designed and maintained a petabyte-scale Ceph cluster and associated network/server hardware.
-- Built high-availability clusters using Pacemaker, Keepalived, and HAProxy.
-- Automated tasks using Ansible and Python, managed backup systems (Bareos), and developed monitoring scripts integrated with Zabbix, InfluxDB, and Grafana.
-- Implemented CI/CD pipelines and developed REST services and parsers using Python (Tornado/Flask).
-
----
-
-### LLP "ASKET" – Petropavlovsk, Russia  
-**System Administrator**  
-*May 2014 – May 2017 (3 years 1 month)*
-
-- Configured and managed the BGBilling billing system and administered servers (Debian/Ubuntu).
-- Managed network hardware from various vendors (D-Link, SNR, ELTEX, BROCADE, UBIQUITY, CISCO).
-- Maintained software-based BRAS systems (BIRD, Quagga, iproute2, iptables) and monitoring systems (Zabbix, Nagios).
-- Configured virtualization clusters (Proxmox, KVM, DRBD, Open vSwitch) and automated tasks using Python.
-- Oversaw DPI system configurations and conducted extensive network and software troubleshooting.
-
----
-
-## Education
-
-**Bachelor’s Degree**  
-*Siberian State University of Telecommunications and Informatics, Novosibirsk*  
-- **Year:** 2022  
-- **Major:** Information Technology and Communications Systems (Computer Software and Automated Systems)
-
-**Petropavl Humanitarian-Technical College**  
-- **Year:** 2014  
-- **Major:** Electronics and Telecommunications (Telecommunications Technician)
-
----
-
-## Professional Development & Certifications
-
-- **Higher School of Economics, Yekaterinburg**  
-  *2021 – Technologies in People Management*
-
-- **NPO "Sapphire", Yekaterinburg**  
-  *2019 – PostgreSQL 10: Administration, Configuration, Monitoring, and Replication (PostgresPro)*
-
-- **FastLane, Saint Petersburg**  
-  *2016 – Implementing Cisco MPLS*
-
----
-
-## Skills
-
-- **Cloud Native & Containerization:** Kubernetes, Docker, OpenStack, Cilium, Containerd, Helm  
-- **Infrastructure & Orchestration:** AWS (EC2, EKS, RDS), Bare-metal Kubernetes, Ceph, MetalLB, Istio, Velero, Terraform, Jenkins  
-- **CI/CD & Automation:** GitLab CI, ArgoCD, Ansible, Terragrunt, Atlantis  
-- **Programming & Scripting:** Golang, Python, C (eBPF)  
-- **Monitoring & Observability:** Prometheus, Grafana, Zabbix, InfluxDB  
-- **Networking & Security:** Linux, XDP, Calico, Flannel, Firewall Configuration, CNI  
-- **Methodologies & Practices:** Agile, Scrum, DevOps, Cross-team Collaboration, R&D
+\end{document}
